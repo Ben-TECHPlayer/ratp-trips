@@ -5,13 +5,37 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>RATP Trips 🚇</Text>
-      <Text style={styles.subtitle}>Testez vos connaissances du réseau</Text>
+      <Text style={styles.title}>RATP Trips</Text>
+      <Text style={styles.subtitle}>Testez vos connaissances du réseau parisien</Text>
+
+      <Link href="/plan" asChild>
+        <Pressable style={styles.button}>
+          <Text style={styles.buttonText}>Plan</Text>
+        </Pressable>
+      </Link>
+
+      <Link href="/maps" asChild>
+        <Pressable style={styles.button}>
+          <Text style={styles.buttonText}>Maps</Text>
+        </Pressable>
+      </Link>
+
+      <Link href="/trips" asChild>
+        <Pressable style={styles.button}>
+          <Text style={styles.buttonText}>Itinéraires</Text>
+        </Pressable>
+      </Link>
+
+      <Link href="/tarifs" asChild>
+        <Pressable style={styles.button}>
+          <Text style={styles.buttonText}>Tarifs</Text>
+        </Pressable>
+      </Link>
 
       {/* Utilisation de asChild pour pouvoir styliser le bouton avec Pressable */}
       <Link href="/quiz" asChild>
         <Pressable style={styles.button}>
-          <Text style={styles.buttonText}>Lancer le Quiz</Text>
+          <Text style={styles.buttonText}>Quiz</Text>
         </Pressable>
       </Link>
     </View>
