@@ -1,0 +1,47 @@
+[
+  {
+    "id": "m1_auto_01",
+    "category": "Métro",
+    "subCategory": "Ligne 1",
+    "difficulty": "Intermédiaire",
+    "question": "En quelle année la ligne 1 du métro a-t-elle été entièrement automatisée ?",
+    "options": ["1998", "2005", "2013", "2018"],
+    "correctAnswer": "2013",
+    "explanation": "Les travaux d'automatisation ont débuté en 2005 et se sont achevés en 2013 sans interruption majeure du trafic, une prouesse technique mondiale !"
+  },
+  {
+    "id": "b27_term_01",
+    "category": "Bus",
+    "subCategory": "Bus 27",
+    "difficulty": "Difficile",
+    "question": "Quels sont les deux terminus de la ligne de Bus 27 ?",
+    "options": [
+      "Gare Saint-Lazare <=> Porte d'Ivry",
+      "Gare de l'Est <=> Porte de Versailles",
+      "Opéra <=> Issy - Val de Seine",
+      "Châtelet <=> Villejuif"
+    ],
+    "correctAnswer": "Gare Saint-Lazare <=> Porte d'Ivry",
+    "explanation": "La ligne 27 traverse Paris du Nord-Ouest au Sud-Est, en passant notamment par l'Opéra, le Louvre et le Quartier Latin."
+  },
+  {
+    "id": "iti_gldf_01",
+    "category": "Itinéraires",
+    "subCategory": "RER A",
+    "difficulty": "Facile",
+    "question": "Quel est le moyen le plus rapide et direct pour relier Gare de Lyon à La Défense ?",
+    "options": ["Métro 1", "RER A", "Métro 14 puis Métro 1", "RER D puis RER A"],
+    "correctAnswer": "RER A",
+    "explanation": "Le RER A relie directement les deux pôles majeurs en seulement une quinzaine de minutes, contre plus de 30 minutes en ligne 1."
+  },
+  {
+    "id": "m6_aerial_01",
+    "category": "Métro",
+    "subCategory": "Ligne 6",
+    "difficulty": "Facile",
+    "question": "Quelle ligne de métro parisienne possède le plus long parcours aérien (en extérieur) ?",
+    "options": ["Ligne 2", "Ligne 5", "Ligne 6", "Ligne 8"],
+    "correctAnswer": "Ligne 6",
+    "explanation": "Près de la moitié du parcours de la ligne 6 (45%) se fait en extérieur, offrant des vues imprenables sur la Tour Eiffel et la Seine."
+  }
+]
