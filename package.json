@@ -6,6 +6,7 @@
     "@expo/ui": "~56.0.16",
     "@expo/vector-icons": "^15.1.1",
     "@react-native-picker/picker": "^2.11.4",
+    "@react-navigation/native": "^7.2.6",
     "@types/prop-types": "^15.7.15",
     "@types/react-native-table-component": "^1.2.9",
     "expo": "~56.0.9",
